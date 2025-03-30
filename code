@@ -1,0 +1,76 @@
+#include <iostream>
+#include <string>
+
+using namespace std;
+
+int main(){
+	string a;
+	
+	cout << "Enter a term to get its definition: ";
+	cin >> a;
+	
+	if (a == "Cryptocurrency"){
+		cout << "Digital currency using cryptography for security." << endl;
+	}else if(a == "Blockchain"){
+		cout << "A decentralized digital ledger for transactions." << endl;
+	}else if(a == "Bitcoin"){
+		cout << "The first and most popular cryptocurrency." << endl;
+	}else if(a == "Altcoin"){
+		cout << "Any cryptocurrency other than Bitcoin." << endl;
+	}else if(a == "Ethereum"){
+		cout << "A blockchain enabling smart contracts and DApps." << endl;
+	}else if(a == "Smart Contract"){
+		cout << "Self-executing agreements on blockchain." << endl;
+	}else if(a == "Decentralization"){
+		cout << "No central authority controls the system." << endl;
+	}else if(a == "Mining"){
+		cout << "Process of validating transactions and earning coins." << endl;
+	}else if(a == "Proof of Work"){
+		cout << "A mining-based consensus mechanism." << endl;
+	}else if(a == "Proof of Stake"){
+		cout << "A staking-based consensus mechanism." << endl;
+	}else if(a == "Token"){
+		cout << "Digital assets created on a blockchain." << endl;
+	}else if(a == "Stablecoin"){
+		cout << "Crypto pegged to stable assets like USD." << endl;
+	}else if(a == "DeFi"){
+		cout << "Financial services without intermediaries." << endl;
+	}else if(a == "NFT"){
+		cout << "Unique digital ownership certificates." << endl;
+	}else if(a == "Gas Fee"){
+		cout << "Transaction fees on blockchain networks." << endl;
+	}else if(a == "Fork"){
+		cout << "A split in a blockchain network." << endl;
+	}else if(a == "Metaverse"){
+		cout << "A virtual world using blockchain and NFTs." << endl;
+	}else if(a == "Oracles"){
+		cout << "Services bringing real-world data to smart contracts." << endl;
+	}else if(a == "Private Key"){
+		cout << "A secret code to access a wallet." << endl;
+	}else if(a == "Public Key"){
+		cout << "A wallet address for receiving funds." << endl;
+	}else if(a == "Cold Wallet"){
+		cout << "Offline storage for better security." << endl;
+	}else if(a == "Hot Wallet"){
+		cout << "Online storage for easy access." << endl;
+	}else if(a == "Exchange"){
+		cout << "A platform for buying and selling crypto." << endl;
+	}else if(a == "Liquidity"){
+		cout << "How easily an asset is traded." << endl;
+	}else if(a == "Market Cap"){
+		cout << "Total value of a cryptocurrency." << endl;
+	}else if(a == "HODL"){
+		cout << "Holding crypto long-term despite volatility." << endl;
+	}else if(a == "Rug Pull"){
+		cout << "A scam where developers steal investor funds." << endl;
+	}else if(a == "ByBit"){
+		cout << "A cryptocurrency derivatives trading platform." << endl;
+	}else if(a == "Phantom Wallet"){
+		cout << "A Solana-based crypto wallet for DeFi and NFTs." << endl;
+	}else if(a == "Binance"){
+		cout << "The world’s largest cryptocurrency exchange." << endl;
+	}else{
+		cout << "No word found." << endl;
+	}
+	return 0;
+}
